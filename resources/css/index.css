@@ -1,0 +1,16 @@
+* {
+    font-family:'Times New Roman', Times, serif
+}
+
+h1 {
+    color: black;
+}
+
+p,
+li {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
