@@ -1,0 +1,58 @@
+.navigation{
+    background-color: #848ba0;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+}
+
+.ChildA, .ChildB, .ChildC{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Child A */
+.ChildA{
+    background-color: #6b718a;
+    color: #bbc2da;
+}
+.ChildA:hover {
+    background-color: #9199b9;
+    color: #dae3ff;
+}
+
+/* Child B */
+.ChildB{
+    background-color: #677c83;
+    color: #cddadf;
+}
+.ChildB:hover {
+    background-color: #8fabb4;
+    color: #ecfaff;
+}
+
+/* Child C */
+.ChildC{
+    background-color: #698b7e;
+    color: #ceddd7;
+}
+.ChildC:hover {
+    background-color: #91bead;
+    color: #ceddd7;
+}
+
+.ChildD{
+    flex: 4;
+    align-content: left;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+img:hover {
+    filter:invert();
+}

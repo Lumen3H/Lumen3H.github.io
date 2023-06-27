@@ -1,16 +1,60 @@
 * {
-    font-family:'Times New Roman', Times, serif
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
-    color: black;
+.Main{
+    background-color: #221e2b;
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-p,
-li {
-    font-size: 18px;
+.Content{
+    background-color: #6b718a;
+    width: 40vw;
+    height: 45vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: blanchedalmond;
 }
 
-a {
-    text-decoration: none;
+.ContentBox{
+    width: 35vw;
+    height: 45vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: blanchedalmond;
+}
+
+.Box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b718a;
+    height: 13vh;
+}
+
+.Box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #677c83;
+    height: 13vh;
+}
+
+.Box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #698b7e;
+    height: 13vh;
 }
